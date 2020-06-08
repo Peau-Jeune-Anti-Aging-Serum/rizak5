@@ -2,9 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
 
 
-
-
-
 body {
   font-family: Rubik;
 }
@@ -18,7 +15,7 @@ body {
 }
 .display-2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-display: swap;
 }
 .display-2 > .mbr-iconfont {
@@ -42,7 +39,7 @@ body {
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.7rem;
   font-display: swap;
 }
 .display-7 > .mbr-iconfont {
@@ -93,7 +90,7 @@ body {
   border-radius: 3px;
 }
 .bg-primary {
-  background-color: #149dcc !important;
+  background-color: #0a235a !important;
 }
 .bg-success {
   background-color: #f7ed4a !important;
@@ -109,8 +106,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #149dcc !important;
-  border-color: #149dcc !important;
+  background-color: #0f46ac !important;
+  border-color: #adbbd7 !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -549,7 +546,7 @@ blockquote {
 }
 @media (max-width: 767px) {
   .btn {
-    font-size: .75rem !important;
+    font-size: 1.75rem !important;
   }
   .btn .mbr-iconfont {
     font-size: 1rem !important;
@@ -627,7 +624,8 @@ section.lazy-placeholder:after {
   opacity: 0.3;
 }
 .cid-rJjVjQ4nlD {
-  background-color: #002531;
+  background-image: url(back.jpg); 
+  background-position: 50% 25%;
 }
 .cid-rJjVjQ4nlD .mbr-text,
 .cid-rJjVjQ4nlD .mbr-section-btn {
@@ -635,5 +633,5 @@ section.lazy-placeholder:after {
 }
 .cid-rJjVjQ4nlD H3 {
   text-align: center;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
